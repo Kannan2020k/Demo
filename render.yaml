@@ -1,0 +1,37 @@
+services:
+  # A Docker web service
+  - type: web
+    name: anything
+    env: docker
+    region: Frankfurt
+    plan: free
+    envVars:
+      - key: PORT
+        value: 80
+      - key: BOT_TOKEN
+        # value: BOT_TOKEN
+        sync: false
+      - key: SHORTNER_API
+        # value: SHORTNER_API
+        sync: false
+      - key: SHORTENR_URL
+        # value: SHORTENR_URL
+        sync: false
+      - key: AUTH_CHANNEL
+        # value: AUTH_CHANNEL
+        sync: false
+      - key: BIN_CHANNEL
+        # value: BIN_CHANNEL
+        sync: false
+      - key: OWNER_ID
+        # value: OWNER_ID
+        sync: false
+      - key: API_ID
+        # value: API_ID
+        sync: false
+      - key: API_HASH
+        # value: API_HASH
+        sync: false
+      - key: FQDN
+        # value: FQDN
+        sync: false
