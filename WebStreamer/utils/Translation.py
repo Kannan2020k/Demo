@@ -16,7 +16,7 @@ class Language(object):
         START_TEXT = """ <b>
 Hello, {}
 
-It's Me Prime File2Link BoT
+It's Me Prime File2Link (custom shortner support) BoT
 
 If you want like this BoT Contact ME!
 </b> """
@@ -92,7 +92,7 @@ class BUTTON(object):
     START_BUTTONS = InlineKeyboardMarkup(
          [
              [
-                 InlineKeyboardButton("♡︎ Cᴏɴᴛᴀᴄᴛ 🧛‍♂️ Aᴅᴍɪɴ ♡︎", url='https://t.me/Mr_Tamil_KId')
+                 InlineKeyboardButton("♡︎ Cᴏɴᴛᴀᴄᴛ 🧛‍♂️ Aᴅᴍɪɴ ♡︎", url='https://t.me/Owner_of_qtmve')
              ]
          ]
     )
