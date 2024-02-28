@@ -14,7 +14,7 @@ class Var(object):
     SHORTNER_API = str(environ.get("SHORTNER_API", "944ca63bcf41cc4159c9f40ba941012d9bba89d5")) 
     SHORTENR_URL = str(environ.get("SHORTENR_URL", "upshrink.com")) 
     AUTH_CHANNEL = str(environ.get("AUTH_CHANNEL", "TamilMov_LinkZz")) 
-    CUSTOM_FILE_CAPTION = str(environ.get("CUSTOM_FILE_CAPTION","** {file_name} \n\n ⚡️𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐋𝐢𝐧𝐤 :  \n {short_link} \n\n 💢Join : @{main_chat} **")) 
+    CUSTOM_FILE_CAPTION = str(environ.get("CUSTOM_FILE_CAPTION","** {file_name} \n\n ⚡️𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐋𝐢𝐧𝐤 :  \n {short_link} \n\n 💢Join : @TamilMov_chat **")) 
     SLEEP_THRESHOLD = int(environ.get("SLEEP_THRESHOLD", "60"))  # 1 minte
     WORKERS = int(environ.get("WORKERS", "6"))  # 6 workers = 6 commands at once
     BIN_CHANNEL = int(environ.get("BIN_CHANNEL", "-1002013080843"))  # you NEED to use a CHANNEL when you're using MULTI_CLIENT
