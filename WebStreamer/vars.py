@@ -11,8 +11,8 @@ class Var(object):
     API_ID = int(environ.get("API_ID","19553188"))
     API_HASH = str(environ.get("API_HASH","52c7a1c621bc52258f55961d65028bb0"))
     BOT_TOKEN = str(environ.get("BOT_TOKEN", "6925301978:AAHkWXsRMQzCwoqxakCpLrc0YbMGKEPxG00"))
-    SHORTNER_API = str(environ.get("SHORTNER_API", "944ca63bcf41cc4159c9f40ba941012d9bba89d5")) 
-    SHORTENR_URL = str(environ.get("SHORTENR_URL", "upshrink.com")) 
+    SHORTNER_API = str(environ.get("SHORTNER_API", "15c728d0af696e2c4751e0d3a965a0652b393ea7")) 
+    SHORTENR_URL = str(environ.get("SHORTENR_URL", "tnshort.net")) 
     AUTH_CHANNEL = str(environ.get("AUTH_CHANNEL", "TamilMov_LinkZz")) 
     CUSTOM_FILE_CAPTION = str(environ.get("CUSTOM_FILE_CAPTION","** {file_name} \n\n ⚡️𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐋𝐢𝐧𝐤 :  \n {short_link} \n\n 💢Join : @{main_chat} **")) 
     SLEEP_THRESHOLD = int(environ.get("SLEEP_THRESHOLD", "60"))  # 1 minte
@@ -33,7 +33,7 @@ class Var(object):
     FQDN = (
         str(environ.get("FQDN", BIND_ADDRESS))
         if not ON_HEROKU or environ.get("FQDN")
-        else APP_NAME + ".herokuapp.com"
+        else APP_NAME + "-raam-30d37bff9880.herokuapp.com"
     )
     if ON_HEROKU:
         URL = f"https://{FQDN}/"
