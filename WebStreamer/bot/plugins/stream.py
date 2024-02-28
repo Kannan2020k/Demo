@@ -58,14 +58,14 @@ async def channel_receive_handler(bot, broadcast: Message):
            file_caption = f"{broadcast.caption}"                
         else:
            file_caption = ""
-    file_caption = file_caption.replace("@BGM_LinkzZ - ", "")
-    file_caption = file_caption.replace(".mkv", "")
-    file_caption = file_caption.replace("HEVC", "#HEVC")
-    file_caption = file_caption.replace("Sample video.", "#SampleVideo")
-    file_caption = file_caption.replace(".", " ")
-    file_caption = file_caption.replace("1080p", "#1080p")
-    file_caption = file_caption.replace("720p", "#720p")
-    file_caption = file_caption.replace("@BGM_LinkzZ", "")
+    file_caption = file_caption.replace("", "")
+    file_caption = file_caption.replace("", "")
+    file_caption = file_caption.replace("", "")
+    file_caption = file_caption.replace("", "")
+    file_caption = file_caption.replace("", "")
+    file_caption = file_caption.replace("", "")
+    file_caption = file_caption.replace("", "")
+    file_caption = file_caption.replace("", "")
                          
         #return
     try:
